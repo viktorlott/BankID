@@ -206,8 +206,12 @@ const information = `
 
 const bank = new BankID() 
 
-bank.info()
-bank.terminal_query()
+module.exports = BankID
+process.argv.forEach(val => {
+  if(val == "-i") bank.info()
+  if(val == "-q") bank.terminal_query() 
+})
+
 
 
 

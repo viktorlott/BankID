@@ -4,19 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bankidtest.js -i -q"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tensorflow/tfjs": "^0.13.1",
-    "@tensorflow/tfjs-node": "^0.1.17",
     "axios": "^0.18.0",
     "bankid": "^1.2.0",
     "enquirer": "^2.3.0",
-    "node-fetch": "^2.3.0",
-    "ora": "^3.0.0",
-    "puppeteer": "^1.8.0"
+    "ora": "^3.0.0"
   }
 }
