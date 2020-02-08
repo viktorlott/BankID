@@ -5,7 +5,7 @@
 > This is an implementation for the Swedish BankID Authorization Solution
 
 ### BankID Authentication
-``
+
  This is built from reading the [Relying Party Guidelines](https://www.bankid.com/bankid-i-dina-tjanster/rp-info).
  
  NOT using a third pary solution like for example, *Svensk eID*.
@@ -17,8 +17,7 @@
  
    BankID is the Root Certificate Authority.
      \___ They sign and issue Intermediate Certificates to BANKS.
-             \___The Banks issue end user SSL certificate for companies.
-``
+             \___ The Banks issue end user SSL certificate for companies.
 
 
 
