@@ -15,9 +15,11 @@
  
  How the certificate process works:
  
-   BankID is the Root Certificate Authority. \n
-     \\___ They sign and issue Intermediate Certificates to BANKS. \n
-             \\___ The Banks issue end user SSL certificate for companies. \n
+   BankID is the Root Certificate Authority.
+   
+     \\___ They sign and issue Intermediate Certificates to BANKS
+     
+             \\___ The Banks issue end user SSL certificate for companies.
 
 
 
