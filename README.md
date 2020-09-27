@@ -2,7 +2,7 @@
 
 ### Identity verification
 
-> This is an implementation for the Swedish BankID Authorization Solution
+> This is an implementation for the Swedish BankID Authentication Solution
 
 ### BankID Authentication
 
